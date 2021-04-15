@@ -14,9 +14,25 @@
   
 // })
 
+//Use to create toggle effect
+// $(document).ready(function() {
+//   $("p").click(function() {
+//     $(".walrus-showing").toggle();
+//     $(".walrus-hidden").toggle();
+//   });
+// });
+
+//To include the clickable class that we just added on CSS, which then calls on the next two functions to toggle
+// $(document).ready(function() {
+//   $(".clickable").click(function() {
+//     $(".walrus-showing").toggle();
+//     $(".walrus-hidden").toggle();
+//   });
+// });
+
+//trying methods on W3 schools
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+  $(".newpara").dblclick(function() {
+    $(".newpara").hide();
   });
 });
