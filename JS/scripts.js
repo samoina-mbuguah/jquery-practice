@@ -36,3 +36,20 @@ $(document).ready(function() {
     $(".newpara").hide();
   });
 });
+
+//working on adding and removing classes on jQuery. .addClass method () adds one or more classes to the selected element, does not remove existing classes. Before adding to CSS, changes do not reflect. Remember, jQuery handles all events on a page, cSS styles
+
+$("button#green").click(function() {
+  $("body").removeClass();
+  $("body").addClass("green-background");
+});
+
+$("button#yellow").click(function() {
+  $("body").removeClass();
+  $("body").addClass("yellow-background");
+});
+
+$("button#red").click(function() {
+  $("body").removeClass();
+  $("body").addClass("red-background");
+});
